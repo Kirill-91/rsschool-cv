@@ -1,2 +1,1 @@
-# rsschool-cv
-cv repo
+https://Kirill-91.github.io/rsschool-cv/cv
