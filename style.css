@@ -1,0 +1,201 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap'); */
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    max-height: auto;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(assets/img/background1.jpg);
+
+}
+/* Header */
+.header {
+    width: 100%;
+    height: 300px;
+    background-color: #E0DFDB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header__photo {
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 0 0 50px;
+    border: 5px solid #fafafa;
+    box-shadow: 3px 3px 20px #fafafa;
+}
+
+.header__text {
+    font-family:'Fuzzy Bubbles', cursive;
+    width: 30%;
+    font-size: 64px;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 6px rgb(80, 79, 79);
+}
+
+.header__surname {
+    margin: -50px 0 0 0;
+
+}
+.spec {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -10px;
+}
+
+.header__logo {
+    margin: 0 50px 0 0;
+    height: 250px;
+    width: 30%;
+}
+/* Main */
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+a.contacts_link{
+    color: rgb(25, 18, 9);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a.contacts_link:active {
+    font-weight: bold;
+}
+a.contacts_link:visited{
+    color: rgb(149, 165, 77);
+}
+a.contacts_link:hover {
+    color: rgb(15, 137, 78);
+}
+
+.column1 {
+    width: 60%;
+    margin: auto;
+}
+
+.vertical-row {
+    width: 5px;
+    height: auto;
+    background-color: black;
+    margin: 10px;
+}
+
+.column2 {
+    width: 40%;
+    margin: auto;
+
+}
+.hard-skills-list {
+    list-style-type: none;
+}
+
+.hard-skills-list li {
+    margin-bottom: 10px;
+}
+.hard-skills-html {
+    position: relative;
+    padding: 0 0 0 30px;
+}
+
+.hard-skills-html:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(assets/img/html.png);
+    width: 15px;
+    height: 20px;
+}
+
+.hard-skills-css {
+    position: relative;
+    padding: 0 0 0 30px;
+}
+
+.hard-skills-css:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(assets/img/css.png);
+    width: 15px;
+    height: 20px;
+}
+
+.hard-skills-js {
+    position: relative;
+    padding: 0 0 0 30px;
+}
+
+.hard-skills-js:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(assets/img/js.png);
+    width: 15px;
+    height: 20px;
+}
+
+.hard-skills-git {
+    position: relative;
+    padding: 0 0 0 30px;
+}
+
+.hard-skills-git:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(assets/img/Git.png);
+    width: 15px;
+    height: 20px;
+}
+
+
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 100px;
+    /* margin-top: 50px; */
+    background-color: #E0DFDB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gh-logo {
+    height: 70px;
+    padding-left: 20px;
+
+}
+
+.year {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rs-logo {
+    height: 70px;
+    padding-right: 20px;
+}
+
+@media (max-width: 1000px) {
+    .header__logo {
+      visibility: hidden;
+    }
+  }
